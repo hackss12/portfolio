@@ -30,7 +30,7 @@ export default function HeroSection() {
             <Download size={18} />
             Download Resume
           </a>
-          <a href="https://github.com/hackss12/ganeshsawant.git" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-lg border border-slate-300 px-5 py-3 font-medium text-slate-700 transition hover:border-blue-400 hover:text-blue-600 dark:border-slate-700 dark:text-slate-200">
+          <a href="https://github.com/hackss12" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-lg border border-slate-300 px-5 py-3 font-medium text-slate-700 transition hover:border-blue-400 hover:text-blue-600 dark:border-slate-700 dark:text-slate-200">
             <Github size={18} />
             GitHub
           </a>

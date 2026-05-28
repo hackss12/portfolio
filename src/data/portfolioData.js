@@ -25,8 +25,8 @@ export const projects = [
     description:
       "A web-based home interior design service application with secure user authentication, service booking, customer interaction flows, and Firebase-backed data storage.",
     technologies: ["HTML5", "CSS3", "JavaScript", "Firebase"],
-    github: "https://github.com/hackss12/ganeshsawant.git",
-    demo: "",
+    github: "https://github.com/hackss12",
+    demo: "https://interior-designer-service.web.app/",
     image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80"
   }
 ];

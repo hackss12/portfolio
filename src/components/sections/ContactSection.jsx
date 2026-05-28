@@ -12,7 +12,7 @@ export default function ContactSection() {
             <a href="mailto:gs7873504@gmail.com" className="flex items-center gap-2 hover:text-blue-600"><Mail size={16} /> gs7873504@gmail.com</a>
             <a href="tel:+918806367452" className="flex items-center gap-2 hover:text-blue-600"><Phone size={16} /> +91 88063 67452</a>
             <p className="flex items-center gap-2"><MapPin size={16} /> Vengurla, Sindhudurg</p>
-            <a href="https://github.com/hackss12/ganeshsawant.git" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-blue-600"><Github size={16} /> GitHub</a>
+            <a href="https://github.com/hackss12" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-blue-600"><Github size={16} /> GitHub</a>
             <a href="https://www.linkedin.com/in/ganesh-sawant-295922282" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-blue-600"><Linkedin size={16} /> LinkedIn</a>
           </div>
         </div>
