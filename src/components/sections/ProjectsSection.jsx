@@ -7,7 +7,7 @@ export default function ProjectsSection() {
   return (
     <section id="projects" className="section py-20" aria-label="Projects section">
       <SectionHeading title="Projects" subtitle="Selected work showcasing my development process and technical skills." />
-      <div className="grid gap-6 lg:grid-cols-3">
+      <div className="grid max-w-xl gap-6">
         {projects.map((project, idx) => (
           <motion.article
             key={project.title}
@@ -33,10 +33,12 @@ export default function ProjectsSection() {
                   <Github size={15} />
                   GitHub
                 </a>
-                <a href={project.demo} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-md bg-blue-600 px-3 py-2 text-sm text-white">
-                  <ExternalLink size={15} />
-                  Live Demo
-                </a>
+                {project.demo && (
+                  <a href={project.demo} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-md bg-blue-600 px-3 py-2 text-sm text-white">
+                    <ExternalLink size={15} />
+                    Live Demo
+                  </a>
+                )}
               </div>
             </div>
           </motion.article>

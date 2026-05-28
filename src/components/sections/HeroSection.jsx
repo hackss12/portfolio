@@ -23,7 +23,7 @@ export default function HeroSection() {
           <span className="animate-pulse">|</span>
         </motion.p>
         <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4 }} className="mt-6 max-w-2xl text-slate-600 dark:text-slate-300">
-          I build fast, accessible, and responsive web applications with clean user experiences and production-focused engineering practices.
+          IT graduate skilled in HTML, CSS, JavaScript, SQL, Firebase, and frontend-backend integration, with internship experience in web development.
         </motion.p>
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }} className="mt-8 flex flex-wrap gap-3">
           <a href="/Ganesh-Sawant-Resume.pdf" className="inline-flex items-center gap-2 rounded-lg bg-blue-600 px-5 py-3 font-medium text-white transition hover:bg-blue-700">

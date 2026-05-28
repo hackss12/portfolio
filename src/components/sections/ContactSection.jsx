@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Phone } from "lucide-react";
+import { Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
 import SectionHeading from "../SectionHeading";
 
 export default function ContactSection() {
@@ -9,8 +9,9 @@ export default function ContactSection() {
         <div className="glass-card p-6">
           <h3 className="text-lg font-semibold">Contact Details</h3>
           <div className="mt-4 space-y-3 text-slate-700 dark:text-slate-200">
-            <p className="flex items-center gap-2"><Mail size={16} /> ganesh.sawant.dev@email.com</p>
-            <p className="flex items-center gap-2"><Phone size={16} /> +91 98765 43210</p>
+            <a href="mailto:gs7873504@gmail.com" className="flex items-center gap-2 hover:text-blue-600"><Mail size={16} /> gs7873504@gmail.com</a>
+            <a href="tel:+918806367452" className="flex items-center gap-2 hover:text-blue-600"><Phone size={16} /> +91 88063 67452</a>
+            <p className="flex items-center gap-2"><MapPin size={16} /> Vengurla, Sindhudurg</p>
             <a href="https://github.com/hackss12/ganeshsawant.git" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-blue-600"><Github size={16} /> GitHub</a>
             <a href="https://www.linkedin.com/in/ganesh-sawant-295922282" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-blue-600"><Linkedin size={16} /> LinkedIn</a>
           </div>
