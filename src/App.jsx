@@ -8,6 +8,7 @@ import SkillsSection from "./components/sections/SkillsSection";
 import ProjectsSection from "./components/sections/ProjectsSection";
 import ExperienceSection from "./components/sections/ExperienceSection";
 import EducationSection from "./components/sections/EducationSection";
+import ResumeSection from "./components/sections/ResumeSection";
 import ContactSection from "./components/sections/ContactSection";
 import Footer from "./components/Footer";
 import { navItems } from "./data/portfolioData";
@@ -54,6 +55,7 @@ export default function App() {
             <ProjectsSection />
             <ExperienceSection />
             <EducationSection />
+            <ResumeSection />
             <ContactSection />
           </motion.div>
         </AnimatePresence>

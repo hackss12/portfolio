@@ -1,5 +1,6 @@
-import { Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import { Github, Linkedin, Mail, MapPin, Phone, Download } from "lucide-react";
 import SectionHeading from "../SectionHeading";
+import { profile } from "../../data/portfolioData";
 
 export default function ContactSection() {
   return (
@@ -9,11 +10,12 @@ export default function ContactSection() {
         <div className="glass-card p-6">
           <h3 className="text-lg font-semibold">Contact Details</h3>
           <div className="mt-4 space-y-3 text-slate-700 dark:text-slate-200">
-            <a href="mailto:gs7873504@gmail.com" className="flex items-center gap-2 hover:text-blue-600"><Mail size={16} /> gs7873504@gmail.com</a>
-            <a href="tel:+918806367452" className="flex items-center gap-2 hover:text-blue-600"><Phone size={16} /> +91 88063 67452</a>
-            <p className="flex items-center gap-2"><MapPin size={16} /> Vengurla, Sindhudurg</p>
-            <a href="https://github.com/hackss12" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-blue-600"><Github size={16} /> GitHub</a>
-            <a href="https://www.linkedin.com/in/ganesh-sawant-295922282" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-blue-600"><Linkedin size={16} /> LinkedIn</a>
+            <a href={`mailto:${profile.email}`} className="flex items-center gap-2 hover:text-blue-600"><Mail size={16} /> {profile.email}</a>
+            <a href={`tel:${profile.phone.replace(/\s+/g, "")}`} className="flex items-center gap-2 hover:text-blue-600"><Phone size={16} /> {profile.phone}</a>
+            <p className="flex items-center gap-2"><MapPin size={16} /> {profile.location}</p>
+            <a href={profile.github} target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-blue-600"><Github size={16} /> GitHub</a>
+            <a href={profile.linkedin} target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-blue-600"><Linkedin size={16} /> LinkedIn</a>
+            <a href={profile.resumeUrl} target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-blue-600"><Download size={16} /> View Resume</a>
           </div>
         </div>
         <form className="glass-card space-y-4 p-6">
