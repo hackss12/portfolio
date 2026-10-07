@@ -15,7 +15,7 @@ export default function ContactSection() {
             <p className="flex items-center gap-2"><MapPin size={16} /> {profile.location}</p>
             <a href={profile.github} target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-blue-600"><Github size={16} /> GitHub</a>
             <a href={profile.linkedin} target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-blue-600"><Linkedin size={16} /> LinkedIn</a>
-            <a href={profile.resumeUrl} target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-blue-600"><Download size={16} /> View Resume</a>
+            <a href={profile.resumeUrl} download={profile.resumeFileName} className="flex items-center gap-2 hover:text-blue-600"><Download size={16} /> Download Resume</a>
           </div>
         </div>
         <form className="glass-card space-y-4 p-6">

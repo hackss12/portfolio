@@ -1,5 +1,5 @@
 import SectionHeading from "../SectionHeading";
-import { profile, highlights, languages } from "../../data/portfolioData";
+import { profile, aboutParagraphs, highlights, languages } from "../../data/portfolioData";
 
 export default function AboutSection() {
   return (
@@ -9,7 +9,11 @@ export default function AboutSection() {
         subtitle="Professional summary, goals, and strengths that define my developer journey."
       />
       <div className="glass-card p-6 sm:p-8">
-        <p className="text-slate-700 dark:text-slate-200">{profile.summary}</p>
+        <div className="space-y-4 text-slate-700 dark:text-slate-200">
+          {aboutParagraphs.map((paragraph) => (
+            <p key={paragraph}>{paragraph}</p>
+          ))}
+        </div>
 
         <div className="mt-6 grid gap-4 sm:grid-cols-3">
           <div className="rounded-xl border border-slate-200 bg-slate-50 p-4 dark:border-slate-700 dark:bg-slate-900/70">
