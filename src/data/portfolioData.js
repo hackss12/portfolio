@@ -56,7 +56,7 @@ export const projects = [
     description:
       "Developed an HR analytics project analyzing workforce distribution, salary trends, experience, and attrition using Python, SQL, and Power BI while cleaning and validating employee data for business insights.",
     technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "SQL", "Power BI"],
-    github: "https://github.com/hackss12",
+    github: "https://github.com/hackss12/Employee-Data-Analysis-HR-Analytics",
     demo: "",
     image: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80"
   },
